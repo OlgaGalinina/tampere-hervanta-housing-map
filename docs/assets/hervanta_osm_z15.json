@@ -1,0 +1,19 @@
+{
+  "source": "OpenStreetMap raster tiles",
+  "attribution": "© OpenStreetMap contributors",
+  "zoom": 15,
+  "bounds": {
+    "south": 61.4355,
+    "north": 61.4595,
+    "west": 23.826,
+    "east": 23.87
+  },
+  "global_pixel_bounds": {
+    "west": 4749490.039466666,
+    "north": 2366477.195978013,
+    "east": 4750515.313777778,
+    "south": 2367647.243885182
+  },
+  "width": 1025,
+  "height": 1170
+}
