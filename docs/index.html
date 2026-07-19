@@ -134,7 +134,7 @@
   </div>
   <table>
     <thead>
-      <tr><th>#</th><th>Housing company</th><th>Address</th><th>Manager</th><th>Built</th><th>Link</th></tr>
+      <tr><th>Housing company</th><th>Address</th><th>Manager</th><th>Built</th></tr>
     </thead>
     <tbody id="building-table-body"></tbody>
   </table>
@@ -195,12 +195,10 @@
     const tr = document.createElement('tr');
     tr.dataset.manager = row.manager;
     tr.innerHTML = `
-      <td>${row.index}</td>
       <td>${linkedCompany(row)}</td>
       <td>${escapeHtml(row.address)}</td>
       <td><span class="swatch" style="background:${escapeHtml(row.color)}"></span>${escapeHtml(row.manager)}</td>
-      <td>${escapeHtml(row.age_year)}</td>
-      <td>${sourceLink(row.source_urls)}</td>`;
+      <td>${escapeHtml(row.age_year)}</td>`;
     return tr;
   }
 
